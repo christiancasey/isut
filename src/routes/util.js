@@ -5,10 +5,10 @@ const textsRoot = 'public/texts/';
 const python = 'python3';
 
 /* Is online web application, requiring password to log in? */
-const online = true;
+const online = false;
 
 /* Recorded username if not online web application */
-const defaultUser = 'noname';
+const defaultUser = 'christiancasey';
 
 function nestedTextDir(l) {
 	var dir = textsRoot;
