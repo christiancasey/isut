@@ -18,6 +18,8 @@ MongoDB is typically started up with:
 
 ```
 sudo systemctl start mongod
+
+(For Christian) mongod --dbpath=/Users/christiac86/data/db
 ```
 For now, we assume MongoDB is run without authentication, but see below if it
 is run with.
